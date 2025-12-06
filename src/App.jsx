@@ -1,20 +1,18 @@
 import './App.css'
-import Footer from './components/Footer'
-import Gallery, { FeaturedImage as TheFeaturedImage } from './components/Gallery'
-import Header from './components/Header'
-import Welcome from './components/Welcome'
+import Master from './components/layouts/Master'
+import TaskList from './components/TaskList'
+import Home from './components/views/Home'
+
+
 
 function App() {
 
   return (
     <>
-      <Header />
-        <div className="container mx-auto p-4">
-          <Welcome />
-          <TheFeaturedImage />
-          <Gallery />
-        </div>
-      <Footer />
+      <Master>
+          <TaskList />
+          <Home />
+      </Master>
     </>
   )
 }
