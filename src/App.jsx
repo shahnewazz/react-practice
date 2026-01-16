@@ -1,6 +1,6 @@
 import './App.css'
 import Master from './components/layouts/Master'
-import Task from './components/task/Task'
+import RefInput from './components/Ref/RefInput'
 
 
 
@@ -9,10 +9,11 @@ function App() {
   return (
     <>
       <Master>
-          {/* <TicTacToe />
-          <TaskList /> */}
+          {/* <TicTacToe /> */}
+          {/* <TaskList /> */}
           {/* <Home /> */}
-          <Task />
+          {/* <Task /> */}
+          <RefInput />
       </Master>
     </>
   )
