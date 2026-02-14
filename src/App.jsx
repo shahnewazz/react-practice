@@ -1,6 +1,6 @@
 import './App.css'
 import Master from './components/layouts/Master'
-import Online from './components/Online'
+import Pointer from './components/Pointer'
 
 
 
@@ -15,7 +15,8 @@ function App() {
           {/* <Task /> */}
           {/* <RefInput /> */}
           {/* <MovieList /> */}
-          <Online />
+          {/* <Online /> */}
+          <Pointer />
       </Master>
     </>
   )
