@@ -1,9 +1,8 @@
 
 const navLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Services', href: '#' },
-    { name: 'Contact', href: '#' },
+    { name: 'Home', href: '/' },
+    { name: 'Login', href: '/login' },
+    { name: 'Register', href: '/register' },
 ];
 
 const Header = () => {
