@@ -1,13 +1,12 @@
 import { Outlet } from 'react-router';
-import Footer from '../Footer';
-import Header from '../Header';
+import Footer from './Footer';
+import Header from './Header';
 
-const Master = ({children}) => {
+const Root = () => {
     return (
         <>
             <Header />
                 <div className="container mx-auto p-4">
-                    {children}
                     <Outlet />
                 </div>
             <Footer />
@@ -15,4 +14,4 @@ const Master = ({children}) => {
     );
 };
 
-export default Master;
+export default Root;

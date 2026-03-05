@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 
 const navLinks = [
     { name: 'Home', href: '/' },
@@ -17,9 +18,9 @@ const Header = () => {
                         <ul className="flex space-x-4">
                             {navLinks.map((link) => (
                                 <li key={link.name}>
-                                    <a href={link.href} className="hover:underline">
+                                    <Link to={link.href} className="hover:underline">
                                         {link.name}
-                                    </a>
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
